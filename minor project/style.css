@@ -1,0 +1,61 @@
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    top:0px;
+    width:100%;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.place {
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 1rem;
+    margin: 1rem;
+    background-color: white;
+    box-shadow: 10px 10px
+          10px   black;
+    
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom:0px;
+    width:100%;
+    
+}
+.read-more-btn{
+    padding:10px 15px ;
+    background-color:rgba(100, 200, 100, 0.1);
+    outline-color:black;
+    font-size:15px;
+    cursor:pointer;
+
+    
+}
+
